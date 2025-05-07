@@ -1,0 +1,53 @@
+.accordionContainer {
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .icon {
+    color: #0056d2;
+    margin-right: 0.5rem;
+  }
+  
+  .question {
+    font-weight: bold;
+    color: #0056d2;
+    text-decoration: underline;
+  }
+  
+  .summary {
+    margin: 0.5rem 0 0.5rem 1.5rem;
+    max-width: 90%;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 1.5;
+    color: #333;
+  }
+  
+  .content {
+    background-color: #f5f6f8;
+    padding: 1rem;
+    margin: 0.5rem 0 0.5rem 1.5rem;
+    border-radius: 6px;
+    color: #111;
+  }
+  
+  .fullText {
+    margin-bottom: 0.5rem;
+  }
+  
+  .image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+  
